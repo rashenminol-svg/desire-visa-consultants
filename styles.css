@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#intro {
+  text-align: center;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.logo {
+  width: 120px;
+  margin: 20px auto;
+}
+
+.director {
+  font-style: italic;
+  color: #333;
+  margin-top: 10px;
+}
+
+#services, #gallery, #social {
+  padding: 40px;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.carousel img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.whatsapp-float img {
+  width: 60px;
+}
+
+@media (max-width: 768px) {
+  .carousel img {
+    width: 95%;
+  }
+  .logo {
+    width: 80px;
+  }
+}
